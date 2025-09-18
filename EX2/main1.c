@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+int main() {
   char a=5;
   printf("\t%d\n" , a&1);
   printf("\t%d\n" , a&2);
