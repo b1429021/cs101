@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int i = 40;
-    if (i <= 30 {
+    int i = 299;
+    if (i <= 30) {
         printf("免費");
     }
     else if (i >= 240) {
@@ -9,10 +9,10 @@ int main() {
     }
     else{ 
         if (i%30) {
-            int price = ((i/30)+1)*30;
+            int price = ((i/30)+1) *30;
             printf("%d 元", price);
         }
-    else {
+        else {
             printf("%d 元", i);
         }
     }
