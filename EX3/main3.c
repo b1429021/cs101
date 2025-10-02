@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
     int i = 51;
-    if(i % 15 == 0) {
+    if (i % 15 == 0) {
         printf("LOVE IU");
     }
-    else if(i % 5 == 0) {
+    else if (i % 5 == 0) {
         printf("IU");
     }
     else if (i % 3 == 0) {
