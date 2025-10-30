@@ -10,7 +10,7 @@ int main()
     
     char* (*ptr)[3];
     ptr = &names;
-    for(int i=0; i<3 ;i++) {
+    for(int i = 0; i < 3; i++) {
         printf("ptr[%d] = %s\n", i, *(*ptr+i));
     }
 
